@@ -1,0 +1,82 @@
+<script>
+    bundles = [];
+{% for variant in product.variants %}{% if variant.metafields.sva.bundled %}
+    bundles['{{ variant.id }}'] = jQuery.parseJSON('{{ variant.metafields.sva.bundled }}');
+{% endif %}{% endfor %}
+
+    var process = function (target, results) {
+        var deferred = $.Deferred();
+
+        $.ajax({
+            dataType: "json",
+            url: "/products/" + target.handle + ".js"
+        }).done(function (product, textStatus, jqXHR) {
+            var multiplier = target.multiplier || 1,
+                    variants = jQuery.grep(product.variants, function (variant) { // find matching variants
+                        return jQuery.inArray(variant.id, target.variants) > -1
+                    });
+
+            jQuery.each(variants, function (i, variant) {
+                results.push({
+                    variant: variant.id,
+                    available: (variant.inventory_quantity >= multiplier),
+                    quantity: variant.inventory_quantity,
+                    multiplier: target.multiplier
+                })
+            });
+        }).fail(function (jqXHR, textStatus, errorThrown) {
+            if (jqXHR.status == 404) {
+                for (var i = 0; i < target.variants.length; i++) {
+                    results.push({
+                        variant: target.variants[i],
+                        available: 0,
+                        quantity: 0,
+                        multiplier: target.multiplier
+                    })
+                }
+            } else {
+              console.log([jqXHR, textStatus, errorThrown]);
+            }
+        }).always(function () {
+            deferred.resolve();
+        });
+
+        return deferred.promise();
+    }
+    
+
+    var bundled = function (variant, callback) {
+        var id = variant.id,
+            targets = bundles[id],
+            quantity = (variant.inventory_management == 'shopify' && variant.inventory_quantity) || 100;
+      
+        if (targets) {
+            var processes = [], results = [], i;
+
+            jQuery.each(targets, function (n, target) {
+                processes.push(process(target, results));
+            })
+
+            $.when.apply($, processes).done(function () {
+                var available = true;
+                for (i = 0; i < results.length; i++) {
+                    if (results[i].available == false) {
+                        available = false;
+                        quantity = 0;
+                        break;
+                    } else {
+                        if (quantity > results[i].quantity) {
+                            quantity = results[i].quantity;
+                        }
+                    }
+                }
+                callback({available: available, quantity: quantity});
+            });
+
+            return true;
+        } else {
+            callback({available: true, quantity: quantity});
+            return false;
+        }
+    }
+</script>

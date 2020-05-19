@@ -1,0 +1,833 @@
+{
+  "current": {
+    "color_text": "#3a3a3a",
+    "color_body_text": "#333232",
+    "color_sale_text": "#fa4545",
+    "color_button": "#3a3a3a",
+    "color_button_text": "#ffffff",
+    "color_small_button_text_border": "#3a3a3a",
+    "color_text_field_text": "#000000",
+    "color_text_field_border": "#cccccc",
+    "color_text_field": "rgba(0,0,0,0)",
+    "color_image_overlay_text": "#ffffff",
+    "color_image_overlay": "#685858",
+    "image_overlay_opacity": 40,
+    "color_borders": "#ebebeb",
+    "color_body_bg": "#ffffff",
+    "type_header_font": "helvetica_n7",
+    "type_header_base_size": 26,
+    "type_base_font": "helvetica_n4",
+    "type_base_size": 15,
+    "phone_number": "(262) 623-0109",
+    "email_id": "INFO@BREEDINGCAGE.COM",
+    "address": "<p>5373 N 107th St<br>Milwaukee, WI 53225<\/p>",
+    "footer_link": "footer",
+    "footer_logo": "shopify:\/\/shop_images\/logo_rendering_4_png_1.png",
+    "copy_right": "<p>&copy; 2020 M&amp;M CAGE COMPANY, LLC. DESIGN &amp; DEVELOPED BY&nbsp;<a href=\"https:\/\/ogrelogic.com\/\">OGRELOGIC<\/a><\/p>",
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "share_image": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "https:\/\/twitter.com\/Lights4Birds",
+    "social_facebook_link": "https:\/\/www.facebook.com\/mark.schack.7",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/breedingcage\/",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "shopify:\/\/shop_images\/logo-1200x1200.png",
+    "enable_ajax": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "about_heading": "",
+    "about_peragraph": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "center",
+          "logo": "shopify:\/\/shop_images\/logo_rendering_4_png_1.png",
+          "logo_max_width": 450,
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": true,
+          "message_text": "FREE SHIPPING ON ORDERS OVER $250.",
+          "message_link": "",
+          "color_bg": "#3a3a3a",
+          "color_text": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#f6f6f6",
+          "color_footer_text": "#333232",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "1586156049415": {
+        "type": "custom-banner",
+        "blocks": {
+          "1586156049415-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-webp-to-png_7.png",
+              "button_link": "shopify:\/\/collections\/all"
+            }
+          },
+          "1586156210399": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-webp-to-png_9.png",
+              "button_link": "shopify:\/\/collections\/pet-lights-with-chewguard"
+            }
+          },
+          "1586156219622": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-webp-to-png_8.png",
+              "button_link": "shopify:\/\/collections\/breeder-lights"
+            }
+          },
+          "1586156266493": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ezgif.com-webp-to-png_6.png",
+              "button_link": "shopify:\/\/collections\/lights-accessories"
+            }
+          }
+        },
+        "block_order": [
+          "1586156049415-0",
+          "1586156210399",
+          "1586156219622",
+          "1586156266493"
+        ],
+        "settings": {
+          "first_image": "shopify:\/\/shop_images\/ezgif.com-webp-to-png_10.png",
+          "static_link": "shopify:\/\/blogs\/news\/full-spectrum-lighting-for-birds",
+          "faq_img": "shopify:\/\/shop_images\/ezgif.com-webp-to-png_11.png",
+          "faq_link": "shopify:\/\/pages\/easy-faqs",
+          "resources_img": "shopify:\/\/shop_images\/ezgif.com-webp-to-png_12.png",
+          "resources_link": "shopify:\/\/blogs\/news\/why-does-my-bird-need-lights"
+        }
+      },
+      "1586158214050": {
+        "type": "our-collection",
+        "blocks": {
+          "1586158214050-0": {
+            "type": "image",
+            "settings": {
+              "collection": "pet-lights-with-chewguard"
+            }
+          },
+          "1586158238871": {
+            "type": "image",
+            "settings": {
+              "collection": "pet-lights-for-softbills"
+            }
+          },
+          "1586158246799": {
+            "type": "image",
+            "settings": {
+              "collection": "breeder-lights"
+            }
+          },
+          "1586158254937": {
+            "type": "image",
+            "settings": {
+              "collection": "lights-accessories"
+            }
+          }
+        },
+        "block_order": [
+          "1586158214050-0",
+          "1586158238871",
+          "1586158246799",
+          "1586158254937"
+        ],
+        "settings": {
+          "heading": "OUR CATEGORIES"
+        }
+      },
+      "1586162014715": {
+        "type": "featured-best-item",
+        "disabled": true,
+        "settings": {
+          "featured_collection": "",
+          "feat_item_number": 8,
+          "best_collection": "",
+          "best_item_number": 8,
+          "heading": "TO RECEIVE A $29 GIFT CARD",
+          "image": ""
+        }
+      },
+      "1586167193721": {
+        "type": "call-to-action",
+        "settings": {
+          "heading": "",
+          "subheading": "<p>ENGINEERED FOR EASY<br>WE HAVE A PASSION FOR BIRDS.<\/p>",
+          "button_text": "SHOP NOW",
+          "button_link": "shopify:\/\/collections\/all",
+          "image": "shopify:\/\/shop_images\/ezgif.com-webp-to-png_13.png"
+        }
+      },
+      "1586168242715": {
+        "type": "blog-list",
+        "settings": {
+          "heading": "FROM OUR BLOG",
+          "blog": "news",
+          "post_limit": 3
+        }
+      },
+      "faq": {
+        "type": "faq",
+        "blocks": {
+          "1586263210659": {
+            "type": "text",
+            "settings": {
+              "title": "Are M&M Lights Full Spectrum?",
+              "faq_content": "<p>In short, yes, M&amp;M Lights are Full Spectrum. However, this does not mean that they contain Ultraviolet wavelengths (UV). Lights that do contain UV are repackaged reptile bulbs and have the potential to do damage to a bird&rsquo;s eyes, which are sensitive to UV. M&amp;M Lights are Full Spectrum bulbs that do not have UV and are perfectly safe for your birds.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263223051": {
+            "type": "text",
+            "settings": {
+              "title": "Do M&M Lights Have UV?",
+              "faq_content": "<p>No, and you should never put a bulb that emits UV over your bird unless you know what you are doing.<\/p>\n<p><strong>Further reading:<\/strong><\/p>\n<p>Learn more information below or *Link to article that you are going to write*<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263242306": {
+            "type": "text",
+            "settings": {
+              "title": "What Health Benefits Do M&M Lights Have?",
+              "faq_content": "<p>No doubt, some &ldquo;expert&rdquo; has told you that you need to place a light that produces natural sunlight over your bird to keep it healthy. In reality, there is no such thing as a light bulb that can simulate natural sunlight. No light, including mine, emits something that directly affects the health of a bird. That being said, M&amp;M lights do have benefits:<\/p>\n<p><strong>1. Regular and proper light:<\/strong> The most significant health benefit from M&amp;M lights is that they make it possible for you to provide your bird with a consistent and appropriate amount of light, in hours, per day. The fancy word for it is photoperiod. Photoperiod triggers numerous bird hormones.. If you own a species of bird that originated near the equator, its hormones will not respond properly to short winter days in North America. A bird&rsquo;s hormones may also react negatively to a different photoperiod. For example, if you are turning the lights off at 7 p.m. during the week and 11 p.m. on weekends. Birds benefit from a consistent 12-hour day and 12-hour night schedule<\/p>\n<p><strong>2. Concentrated light:<\/strong> Birds love light. If your bird&rsquo;s only source of light is from a window across the room or an overhead light on the ceiling, then cage bars, play tops, and toys often block a lot of that light. M&amp;M lights mount on top of or inside the birdcage and focus all of the light into the cage.<\/p>\n<p><strong>3. A Broad spectrum of light:<\/strong> M&amp;M Lights have a broader spectrum of visible light waves than most bulbs manufactured for birds. While there are no comprehensive studies to cite, the feedback I get from customers and my own experience suggest that most birds respond very favorably to it. Some of the feedback that I have received includes<\/p>\n<p>comments like:<\/p>\n<p>● My screamer stopped screaming.<\/p>\n<p>● My parrot eats healthy foods he wouldn&rsquo;t eat before.<\/p>\n<p>● I&rsquo;ve had the best breeding season ever since I added your lights.<\/p>\n<p>● My birds go back into their cage during the day to sit under it.<\/p>\n<p>The cause of these benefits is unclear but is likely due to more dedicated light for your bird, having a consistent photoperiod, or more natural-looking surroundings thanks to the spectrum produced by the light.<\/p>\n<p><strong><a href=\"https:\/\/www.forthebirdsdvm.com\/pages\/hormonal-behavior-in-pet-birds-therapeutic-remedies\" title=\"https:\/\/www.forthebirdsdvm.com\/pages\/hormonal-behavior-in-pet-birds-therapeutic-remedies\">Further reading<\/a>&nbsp;<\/strong><\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263664766": {
+            "type": "text",
+            "settings": {
+              "title": "What is the difference between Pet Lights and Breeder Lights?",
+              "faq_content": "<p>Both types of lights produce the same output; they have the same brightness and use the same LEDs. The difference between comes down to utility and purpose.<\/p>\n<p>Breeder lights are designed to plug into each other. Each one is a single component in an extensive and connected system, and, by itself, a breeder light will not turn on. They are specifically for breeders or other people who have many cages stacked on top of or next to each other. The lights plug into each other in series and are powered by one large power adapter. They also have a more industrial look.<\/p>\n<p>Pet lights are designed for use on a single cage and have a more attractive housing that you will not mind having in your living room. They come with everything you need, including a power adapter and mounting hardware.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263677319": {
+            "type": "text",
+            "settings": {
+              "title": "How do I know what size light to buy?",
+              "faq_content": "<p>The size of your cage determines the size of the light you should buy. While there is nothing wrong with having a small light in a large cage, experience has shown that an even lit cage is preferable for birds. The recommended size to cage ratio is:<\/p>\n<p><\/p>\n<p>● 24&rdquo; lights for cages 30&rdquo; to 36&rdquo; wide<\/p>\n<p>● 18&rdquo; lights for cages 24&rdquo; &ndash; 30&rdquo; wide<\/p>\n<p>● 10&rdquo; lights for cages smaller than 24&rdquo; wide<\/p>\n<p>Multiple lights can cover one cage and large aviaries. Contact me for recommendations and custom configurations.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263691870": {
+            "type": "text",
+            "settings": {
+              "title": "How long is the cord?",
+              "faq_content": "<p>The light cord is 6.5 feet, and the cord for the power adapter is 2.5 feet, for a total of 9 feet.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263706280": {
+            "type": "text",
+            "settings": {
+              "title": "Is there a minimum distance that the light needs to be from my bird?",
+              "faq_content": "<p>No, M&amp;M lights are safe for your birds at any distance.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263720973": {
+            "type": "text",
+            "settings": {
+              "title": "Can this fixture be used with a dimmer?",
+              "faq_content": "<p>Yes, it can, but you would need a dimmer for 12v dc and to put it where the light plugs into the power adapter. Plugging the power adapter into an AC dimmer would not work.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263733605": {
+            "type": "text",
+            "settings": {
+              "title": "Does this light have an on\/off switch?",
+              "faq_content": "<p>No, the intention is to plug it into any standard lamp timer. The photoperiod (amount of light per day) is an important part of a bird&rsquo;s health and should be consistent. Certain species even benefit from changing to photoperiod throughout the year to trigger certain hormones. Google your species of pet plus photoperiod to learn more.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263747101": {
+            "type": "text",
+            "settings": {
+              "title": "Is the light replaceable if it burns out?",
+              "faq_content": "<p>LEDs don&rsquo;t burn out and get replaced like regular bulbs. They are rated to last 50,000 hours (or 10 years at 12 hours per day), and once they die, the entire light needs to be replaced. The power adapter is more likely to die first, though hopefully not until after five years. It is covered under a 2-year warranty and can be replaced after that for around $6.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263762005": {
+            "type": "text",
+            "settings": {
+              "title": "Can this be placed on top of the cage, or does it have to be hung inside from the top? Can the light be mounted to a dome top cage? Can it be mounted on the side of the cage?",
+              "faq_content": "<p>M&amp;M Lights are designed to mount on top of or inside the cage. The easiest method is on top, but many cages have play tops or other objects that do not allow it or restrict the effectiveness of the light. My customers with domed cages mount the light from front to back.<\/p>\n<p><\/p>\n<p>It is not recommended to mount this light, or any light, on the side of a cage. Most bird experts agree that it is bad for birds to have lights that are not above them.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263779620": {
+            "type": "text",
+            "settings": {
+              "title": "How much heat do these lights generate? How hot is the light itself? Can it safely be on with a fabric cage cover?",
+              "faq_content": "<p>M&amp;M Lights do not generate much heat at all. In a room with a temperature of 68 degrees Fahrenheit, the temperature measured at 2 inches from the light was 72 degrees Fahrenheit.<\/p>\n<p><\/p>\n<p>The back of the M&amp;M light reaches 86 degrees Fahrenheit after being on all day, which is safe to cover&mdash;even with the light on!<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263797437": {
+            "type": "text",
+            "settings": {
+              "title": "I have a cage with plastic on the top, should I be worried about it melting?",
+              "faq_content": "<p>No, you do not have to worry about the plastic melting. The only disadvantage is that the plastic will block some of the light. A good alternative is to mount the light on the inside, which works on Vision cages as well.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263812462": {
+            "type": "text",
+            "settings": {
+              "title": "Can this light be used in outdoor or below-freezing temperatures?",
+              "faq_content": "<p>Yes, the LEDs are directly mounted to a circuit board and hard-wired to the power cord. All materials used can withstand sub-freezing temperatures.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263825388": {
+            "type": "text",
+            "settings": {
+              "title": "Does this light produce a glare to surrounding areas?",
+              "faq_content": "<p>M&amp;M Lights do not create surrounding glare. Having previously dealt with the glare from floor stand lights, I specifically designed this light to only illuminate the cage.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263841236": {
+            "type": "text",
+            "settings": {
+              "title": "Is this light a replacement for sunlight?",
+              "faq_content": "<p>No artificial light is a true replacement for sunlight. Do not believe the false claims of any light manufacturer who asserts that their light simulates natural sunlight; it is beyond the laws of physics. It has been proven scientifically for close to 20 years.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263853980": {
+            "type": "text",
+            "settings": {
+              "title": "Can this light be used for plants as well as birds?",
+              "faq_content": "<p>Yes, I have customers that use my lights for their plants, and I do as well. However, they differ from typical grow lights.<\/p>\n<p><\/p>\n<p>The best wavelengths for photosynthesis are longer orange and red wavelengths. M&amp;M lights contain these wavelengths; however, they are not as intense as those in grow lights because they create an orange tinge<\/p>\n<p><\/p>\n<p>Most grow lights are not a natural-looking light. They are made for people who are interested in rapid growth, such as nursery and marijuana growers, so they mostly contain the wavelengths for photosynthesis. A healthy plant can thrive without a grow light.<\/p>\n<p><strong>Further Information<\/strong><\/p>\n<p>Let&rsquo;s talk about artificial light!<\/p>\n<p>The current trend is to insist that your bird needs a light that simulates natural sunlight. Much emphasis is put on UVB, which produces Vitamin D3. However, this is just marketing hype from unscrupulous light manufacturers trying to sell you something. Unfortunately, most Avian Vets and virtually all &ldquo;internet experts&rdquo; repeat the false information without substantiating it.<\/p>\n<p>In reality, there is no such thing as a light bulb that can simulate natural sunlight. You can&rsquo;t turn a rock into a zebra, and you can&rsquo;t turn electricity into sunlight.<\/p>\n<p>Most lights that are marketed for birds and claim to have UV are repackaged reptile bulbs and are dangerous for your bird. Many well-meaning bird owners have accidentally caused their pets to develop cataracts or go blind due to the misuse of these bulbs.<\/p>\n<p>If you are worried about Vitamin D3 production, it can be easily supplemented in a bird&rsquo;s diet.<\/p>\n<p>Here are some interesting facts about artificial light:<\/p>\n<p>● Full Spectrum is a word made up for marketing. It has no scientific definition and, therefore, cannot be measured. It is generally used to refer to a light that contains all of the electromagnetic waves in the visible and UV spectrum that the sun produces at noon on a cloudless day.<\/p>\n<p>● No artificial light contains as many electromagnetic wavelengths as the sun; it&rsquo;s simply beyond the laws of physics to produce. For decades, independent testing labs have measured so-called full spectrum bulbs and found little to no difference between their output and that of ordinary bulbs.<\/p>\n<p>● Most bulbs marketed for birds that claim to be full spectrum and have both UVA and UVB are selling the same bulb you can purchase at Walmart for $2.<\/p>\n<p>● Lights that contain UV can do damage to your bird&rsquo;s sensitive eyes.<\/p>\n<p>● The sun&rsquo;s &ldquo;visible Spectrum&rdquo; output varies from 1,000K to 30,000K throughout the day and only reaches &ldquo;Full Spectrum&rdquo; or 5600K at noon on a cloudless day during the summer months.<\/p>\n<p>● The sun&rsquo;s UV output is only present from zero to six hours per day. Its wavelength varies, and its intensity ranges from zero to maximum depending on many factors such as geographic location, weather, time of day, and shade. Artificial lamps emit UV at the same intensity all the time.<\/p>\n<p>As an engineer who only trusts scientific data, it makes my skin crawl that the term &ldquo;full spectrum&rdquo; has been twisted and misused by the industry. I call my lights Full Spectrum because the term has become ingrained in the minds of bird owners.<\/p>",
+              "faq_id": ""
+            }
+          },
+          "1586263890252": {
+            "type": "text",
+            "settings": {
+              "title": "What does full spectrum mean?",
+              "faq_content": "<p>Dr. John Ott, a pioneer in time-lapse photography and amateur botanist, made up the phrase &ldquo;full spectrum&rdquo; to describe a light bulb that contained all of the electromagnetic wavelengths in the visible spectrum, as the sun does at noon. It has no scientific definition, and cannot be measured&mdash;it is more of a concept than something that exists in the real world.<\/p>\n<p>In the early 1970s, Dr. Ott noticed that the plants he was photographing in time-lapse grew and bloomed at different rates depending on what light he was using. That led to the discovery that plants perform photosynthesis at a higher rate at specific wavelengths of artificial light. Years later, he wrote a book theorizing that all living organisms would benefit from full spectrum lighting, and the concept is now ingrained into the minds of people.<\/p>\n<p>While Dr. Ott was a great photographer and self-promoter, his conclusions about the benefit of full spectrum light were not based on science. His theories were never accepted in the scientific community, and there were no peer reviews of his studies. Yet, just as mothers yell at their children to put a hat on to avoid catching a cold even though scientists have known since the 1940s that colds are caused by contracting a virus, people will insist that birds need a full spectrum light to be healthy.<\/p>\n<p><strong>Learn more\/external links:<\/strong><\/p>\n<p>*Link to article that you are going to write*<\/p>\n<p>*Link to video that I am going to finish* Publication of scientific research on the effect of UVB on parrots A comprehensive study on the false claims of full spectrum lighting<\/p>\n<p><\/p>\n<p><a href=\"https:\/\/royalsocietypublishing.org\/doi\/full\/10.1098\/rspb.2010.1100\" title=\"https:\/\/royalsocietypublishing.org\/doi\/full\/10.1098\/rspb.2010.1100\">Publication of scientific research on the effect of UVB on parrots<\/a><\/p>\n<p><\/p>\n<p><a href=\"https:\/\/www.lrc.rpi.edu\/programs\/nlpip\/lightinganswers\/fullspectrum\/benefits.asp\" title=\"https:\/\/www.lrc.rpi.edu\/programs\/nlpip\/lightinganswers\/fullspectrum\/benefits.asp\">A comprehensive study on the false claims of full spectrum lighting<\/a><\/p>",
+              "faq_id": ""
+            }
+          }
+        },
+        "block_order": [
+          "1586263210659",
+          "1586263223051",
+          "1586263242306",
+          "1586263664766",
+          "1586263677319",
+          "1586263691870",
+          "1586263706280",
+          "1586263720973",
+          "1586263733605",
+          "1586263747101",
+          "1586263762005",
+          "1586263779620",
+          "1586263797437",
+          "1586263812462",
+          "1586263825388",
+          "1586263841236",
+          "1586263853980",
+          "1586263890252"
+        ],
+        "settings": {
+          "tab_link": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "list",
+          "blog_show_author": false,
+          "blog_show_date": true
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": false,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_variant_labels": true,
+          "show_vendor": true,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      }
+    },
+    "content_for_index": [
+      "1586156049415",
+      "1586158214050",
+      "1586162014715",
+      "1586167193721",
+      "1586168242715"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}

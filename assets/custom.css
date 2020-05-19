@@ -1,0 +1,66 @@
+
+
+
+/***************Menu Control***********/
+@media (min-width: 992px){
+    .col-lg-6 {       
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px){
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px){
+    .col-lg-2 {        
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/**********FAQs*********/
+.cd-faq-trigger {
+    background-color: #7ba4c1;
+}
+
+.cd-faq-content {
+    background-color: bisque;
+    font-weight: bold;
+}
+
+.cd-faq-content, .cd-faq-content p {
+    font-size: 16px !important;
+    line-height: 1.4;
+    color: inherit;
+}
+
+/**************Footer**************/
+.lower-footer p {
+    text-align: center;
+}
+
+.__pf .pf-6cda507f {
+    margin-bottom: 0px !important;
+}
+
+.supper-header {
+    background: #7ba4c1;
+}
+
+.gm-menu-installed .gm-menu {
+    background: #7ba4c1 !important;
+}
+
+.collection-hero {
+    height: 10vh;
+    margin-top: 0;
+}
+
+._1LP9NPTft85QosIXd3_zOV._3G6VJhJYno-AX3-X38f1TA._2zarRkvJ2j83NID3Q3t0Ix._3xia0N5Q9Mk6-VTLoOX95a {
+    display: none !important;
+}
