@@ -64,3 +64,8 @@
 ._1LP9NPTft85QosIXd3_zOV._3G6VJhJYno-AX3-X38f1TA._2zarRkvJ2j83NID3Q3t0Ix._3xia0N5Q9Mk6-VTLoOX95a {
     display: none !important;
 }
+
+/*************Filter Wrapper*************/
+.filters-toolbar-wrapper {
+    display: none;
+}

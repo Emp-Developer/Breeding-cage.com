@@ -113,8 +113,8 @@ PLEASE REMOVE ONLY AFTER YOU UNINSTALLED THE PAGEFLY APP.
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
 
   {{ 'ndnapps-album.css' | asset_url | stylesheet_tag }}
-{{ content_for_header }}
-<script src='{{ 'ndnapps-album.js' | asset_url }}' defer='defer'></script>{% include 'globo.menu.script' %}
+{{ content_for_header }}{% include 'globo.menu.script' %}
+<script src='{{ 'ndnapps-album.js' | asset_url }}' defer='defer'></script>
 {{ 'ndnapps-easyfaqs.css' | asset_url | stylesheet_tag }}
   {% include 'qikify-navigator' %}
   {% include 'qikify-smartmenu-data' %}

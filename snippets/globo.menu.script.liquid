@@ -6,8 +6,8 @@
   window.shopCurrency = "{{ shop.currency }}";
   window.assetsUrl = '{{ assets_url[0] }}';
   window.filesUrl = '{{ files_url[0] }}';
-  window.GloboMenuSignature = '9fdbc36a112e9317f48b8f2979845527';
-  window.GloboMenuTimestamp = 1589591750;
+  window.GloboMenuSignature = '91aa2b2d008df05b2360362100b9f654';
+  window.GloboMenuTimestamp = 1590160310;
   window.GloboMenuLinklists = {
     {%- assign comma = '' -%}{%- for list in linklists -%}{%- unless list.handle contains '-child-' or list.links.size == 0 -%}{{comma}}{%- assign comma = ',' -%}{{ list.handle | json }}: [{%- for link in list.links -%}{'url' :{{ link.url | json }}, 'title': {{ link.title | json }}}{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}]{%- endunless -%}{%- endfor -%}
   };

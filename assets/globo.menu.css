@@ -10,23 +10,23 @@
 }
 .gm-menu-installed .gm-menu {
   line-height: 1.4;
-  background: #7ba4c1 !important;
+  background: rgba(123, 164, 193, 1) !important;
   color: #313131;
   font-family: "Work Sans", sans-serif;
   font-size: 13px;
 }
 .gm-menu-installed .gm-menu.gm-bordered:not(.gm-menu-mobile) > .gm-level-0 + .gm-level-0 {
-  border-left: 1px solid #0f0f0f !important;
+  border-left: 1px solid rgba(110, 165, 229, 1) !important;
 }
 .gm-menu-installed .gm-menu.gm-mobile-bordered.gm-menu-mobile > .gm-level-0 + .gm-level-0:not(.searchItem){
-  border-top: 1px solid #0f0f0f !important;
+  border-top: 1px solid rgba(110, 165, 229, 1) !important;
 }
 .gm-menu-installed .gm-item.gm-level-0 > .gm-target > .gm-text{
   font-family: "Work Sans", sans-serif !important;
 }
 .gm-menu-installed .gm-menu .gm-item.gm-level-0 > .gm-target{
   padding: 15px 20px !important;
-  /* background: #000000 !important; */
+  /* background: rgba(123, 164, 193, 1) !important; */
   color: #ffffff !important;
   font-family: "Work Sans", sans-serif !important;
   font-size: 14px !important;
@@ -41,7 +41,7 @@
 
 .gm-menu-installed .gm-menu .gm-item.gm-level-0.gm-active > .gm-target,
 .gm-menu-installed .gm-menu .gm-item.gm-level-0:hover > .gm-target{
-  background: #1d1d1d !important;
+  background: rgba(24, 92, 141, 1) !important;
   color: #f6f1f1 !important;
 }
 .gm-menu-installed .gm-menu .gm-item.gm-level-0 > .gm-target > .gm-icon,
@@ -188,7 +188,7 @@
 
 .theme_store_id_141 .shifter-navigation input#q {
   margin-left: 0;
-  width: 100%;
+  width: `100%;
 }
 
 @media  only screen and (min-width: 769px) {
@@ -230,7 +230,7 @@
   color: #ffffff !important;
 }
 .theme_store_id_601 #nav .gm-level-0 > select.currencies > option {
-  background: #7ba4c1;
+  background: rgba(123, 164, 193, 1) !important;
 }
 
 @media  only screen and (max-width: 740px) {
@@ -356,7 +356,7 @@
   background: transparent !important;
 }
 .theme_store_id_705 .navigation .gm-menu .gm-item.gm-level-0 > a {
-  /* background: #000000 !important; */
+  /* background: rgba(123, 164, 193, 1) !important; */
 }
 @media  screen and (max-width: 1020px) {
   .theme_store_id_705 .navigation.processed.mobile-visible {
@@ -399,6 +399,9 @@
 
 .theme_store_id_790 .main-navigation .gm-submenu li.gm-heading {
   display: block;
+}
+.gm-menu-installed.theme_store_id_732 .logo-nav .gm-item.gm-level-0 > .logo {
+    margin: 0;
 }
 .theme_store_id_790 .main-navigation .gm-submenu li.gm-item {
   display: block;
